@@ -1,6 +1,7 @@
 import React from "react";
 
-function Pizza() {
+function Pizza({pizza}) {
+  console.log(pizza)
   return (
     <tr>
       <td>{"Replace Me With Pizza Topping"}</td>
